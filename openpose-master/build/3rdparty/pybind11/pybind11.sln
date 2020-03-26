@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMakePredefinedTargets", "CMakePredefinedTargets", "{3156BAD5-9188-3EEC-A236-31A93355E5D1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{037AAA8A-E110-3932-99A2-23A2C5FC4299}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "INSTALL", "INSTALL.vcxproj", "{5B6145C7-7614-37F0-9253-D4183BB7B25E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{037AAA8A-E110-3932-99A2-23A2C5FC4299} = {037AAA8A-E110-3932-99A2-23A2C5FC4299}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{037AAA8A-E110-3932-99A2-23A2C5FC4299}.Release|x64.ActiveCfg = Release|x64
+		{037AAA8A-E110-3932-99A2-23A2C5FC4299}.Release|x64.Build.0 = Release|x64
+		{037AAA8A-E110-3932-99A2-23A2C5FC4299}.Debug|x64.ActiveCfg = Debug|x64
+		{037AAA8A-E110-3932-99A2-23A2C5FC4299}.Debug|x64.Build.0 = Debug|x64
+		{5B6145C7-7614-37F0-9253-D4183BB7B25E}.Release|x64.ActiveCfg = Release|x64
+		{5B6145C7-7614-37F0-9253-D4183BB7B25E}.Debug|x64.ActiveCfg = Debug|x64
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{037AAA8A-E110-3932-99A2-23A2C5FC4299} = {3156BAD5-9188-3EEC-A236-31A93355E5D1}
+		{5B6145C7-7614-37F0-9253-D4183BB7B25E} = {3156BAD5-9188-3EEC-A236-31A93355E5D1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74411690-50A2-3FD2-A33B-190F26EF095E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
